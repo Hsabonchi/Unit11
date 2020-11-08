@@ -18,14 +18,18 @@
 
 <h4> <a href="https://docs.mongodb.com/guides/server/drivers/"> Connect to your MongoDB instance</a> </h4>
 
-<h4>Mongodb Object </h4>
+<h4>Data Model </h4>
   <ul>
     <li> if you do not specify an _id field, then MongoDB will add one for you and assign a unique id for each document.</h4>
+    <li>Embedded documents capture relationships between data by storing related data in a single document structure</li>
   </ul>
   
 ---
 
 <h4> Node JS <h4>
 <p> <code> db.listCollections()</code> Retrieve information, i.e. the name and options, about the collections and views in a database</p>
+  <p> create a new collection <code> db.collection(); </code></p>
+
+---
 
 <h3> Query Expression</h3>
