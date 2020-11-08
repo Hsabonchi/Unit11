@@ -16,4 +16,6 @@
   <li> allows developers to query and manipulate objects by specific keys inside the JSON/BSON document</li>
 </ul>
 
-<h4> <a href="https://docs.mongodb.com/guides/server/drivers/"> Connect to your MongoDB instance </h4>
+<h4> <a href="https://docs.mongodb.com/guides/server/drivers/"> Connect to your MongoDB instance</a> </h4>
+
+<p> <code> db.listCollections()</code> Retrieve information, i.e. the name and options, about the collections and views in a database</p>
