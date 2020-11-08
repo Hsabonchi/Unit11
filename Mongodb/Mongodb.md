@@ -13,7 +13,7 @@
   <li>BSON simply stands for “Binary JSON </li>
   <li> BSON’s binary structure encodes type and length information, which allows it to be parsed much more quickly. </li>
   <li>MongoDB stores data in BSON </li>
-  <li> allows developers to query and manipulate objects by specific keys inside the JSON/BSON document</li>
+  <li> Allows developers to query and manipulate objects by specific keys inside the JSON/BSON document</li>
 </ul>
 
 <h4> <a href="https://docs.mongodb.com/guides/server/drivers/"> Connect to your MongoDB instance</a> </h4>
