@@ -12,3 +12,9 @@ http.createServer((request, response) => {
       }); </code>. </pre> 
       
 <li> The[listen] method needs to be called on the server object. </li>
+
+
+<h3>Routing </h3>
+<li> Refers to determining how an application responds to a client request to a particular endpoint, 
+      which is a URI (or path) and a specific HTTP request method (GET, POST, and so on).</li>
+
