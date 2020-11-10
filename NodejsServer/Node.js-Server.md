@@ -1,6 +1,8 @@
 
 <h3> Create the Server</h3>
-<pre> This is done by using <code> http.createServer((request, response) => {  // magic happens here!});` </code> </pre>
+<pre> This is done by using <code>
+http.createServer((request, response) => { 
+      // magic happens here!});` </code> </pre>
 
 <pre>
  shorthand for creating a server object <br>  
