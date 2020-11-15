@@ -26,5 +26,13 @@ http.createServer((request, response) => {
       <li>/api/users/johnny         # Look up johnny from a users collection. </li>
       <li>/v2/books/1234            # Get book with ID 1234 in API v2 schema. </li>
 </ul>
+<ol>
+      <li>req.params.varname : read the value of the  </li>      
+</ol>
+
+
+
+
 <p> nodemon is a tool that helps develop node.js based applications by automatically restarting the node application when file changes in the directory are detected</p>
 <p> Usage<code> nodemon [your node app]</code></p>
+ 
