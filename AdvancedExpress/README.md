@@ -6,7 +6,7 @@
 <p>Loads environment variables from a .env file into process.env. Storing configuration in the environment separate from code is based on The Twelve-Factor App methodology. </p>
 <p> Using dotenv to manage your ENV variables in NodeJS </p>
 <ul>
-  <li> require("dotenv").config();</li>
+  <li> <code> require("dotenv").config();</code></li>
   <li> .config() read environmental variables files and save those variables </li>
   <li> Access variables through <code> process.env.varname</code> </li>
   <li> .env  default file</li>
