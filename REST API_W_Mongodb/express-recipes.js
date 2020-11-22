@@ -39,7 +39,7 @@ async function SearchBynames(name) {
 }
 
 async function SearchByingredients(arraParam) {
-
+    // an array that contains elem for $and array
    let  Queryarray=[];
     for(let i=0;i< arraParam.length;i++){
         if(i!==(arraParam.length-1)){
@@ -67,21 +67,23 @@ async function init() {
      //  List all recipes endpoints
     router.get("/", async (req, res) => {
         // have to add await ootherwise get an empty list 
+        // Call getAllRecpies() function
         let Listrecp = await getAllRecpies()
+        //sends a JSON response
         res.json(Listrecp);
     })
    
     // Search recipes that use certain ingredients Endpoint
     router.post("/searchByingred", async (req, res) => {
-    
+        // get all body key and value pairs
         let objParam=req.body;
         const arraParam=[];
-        // console.log(objParam);
+        // We are concerning about the value e.g staek,onions.... ,then add them to arraParam array
         for (const property in objParam) {
             console.log(`${property}: ${objParam[property]}`);
             arraParam.push(objParam[property])
           }
-          console.log(arraParam.length);
+        //   console.log(arraParam.length);
           let recpName = await SearchByingredients(arraParam)
           res.json(recpName);
     })
